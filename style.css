@@ -3,3 +3,54 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Tag selector to select the 'header' element */
+header {
+  text-align: center; 
+}
+/* CSS to center the image */
+img {
+  display: block; 
+  margin: 0 auto; 
+}
+/* Styling for navigation links */
+nav a {
+  display: inline-block; /* Make anchor tags behave like block-level elements */
+  padding: 10px; /* Add padding on left and right sides */
+  background-color: grey; /* Change background color */
+  text-decoration: none; /* Remove default underline */
+  color: white; /* Set text color */
+}
+
+/* Centering navigation links */
+nav {
+  text-align: center; 
+}
+/* Styling for the image caption */
+figcaption {
+  font-size: 14px; 
+  text-align: center; 
+}
+/* Styling for text block */
+#featured-property p {
+  width: 800px; 
+  margin: 20px auto; 
+  text-align: center; 
+}
+/* Styling for #details section */
+#details div {
+  float: left; 
+}
+/* Styling for bottom row divs */
+.bottom-row {
+  display: flex; /* Use flexbox for layout */
+}
+
+/* Styling for individual divs in the bottom row */
+.bottom-row div {
+  display flex: 1;
+  text-align: center; 
+  background-color: lightgrey;
+  padding: 20px; 
+  margin: 5px; 
+}
+
